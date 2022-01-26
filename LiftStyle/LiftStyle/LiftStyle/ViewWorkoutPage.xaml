@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LiftStyle.ViewWorkoutPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#999c94">
+            <!--<Label Text="View Workout Page"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand" />-->
+            
+                <StackLayout>
+                    <Label TextColor="Black" FontSize="Medium">Bench Press : 4 Sets : 8 Reps : 185 lbs</Label>
+                    <Label BackgroundColor="#7d8079" TextColor="Black" FontSize="Medium">Close Grip Bench : 3 Sets : 12 Reps : 135 lbs</Label>
+                    <Label TextColor="Black" FontSize="Medium">Incline Dumbbell Press : 3 Sets : 8 Reps : 45 lbs</Label>
+                    <Label BackgroundColor="#7d8079" TextColor="Black" FontSize="Medium">Push Ups : 3 Sets : Failure</Label>
+                    <Label TextColor="Black" FontSize="Medium">Skull Crushers : 3 Sets : 15 Reps : 70 lbs</Label>
+                </StackLayout>
+            
+                <Button VerticalOptions="EndAndExpand" 
+                        HorizontalOptions="Fill" 
+                        BackgroundColor="Gold" 
+                        Text="Home"
+                        Clicked="Button_OnClicked_GoToMainPage"></Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

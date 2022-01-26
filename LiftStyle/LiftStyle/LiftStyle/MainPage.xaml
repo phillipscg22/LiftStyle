@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LiftStyle"
+             x:Class="LiftStyle.MainPage">
+
+        
+    <StackLayout BackgroundColor="#999c94">
+        <!-- This is a vertical layout inside the main pane at the top containing the name -->
+        <StackLayout BackgroundColor="Gold" >
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                HorizontalTextAlignment="Center"
+                TextColor="Black"
+                FontSize="Title"
+                Text="LiftStyle: Create Share Grow"/>
+                    
+            <!-- ending here -->
+        </StackLayout>
+            
+        <!-- This is the middle section -->
+        <Label Text="This area can be replaced with a pane to display a logo" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+        />
+        
+        <Image Source="VMI_Logo.png"></Image>
+            
+            
+        <!-- this is the horizontal strip of buttons -->
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" BackgroundColor="Red">
+                    
+            <Button Text="View"
+                    BackgroundColor="Gold" 
+                    Clicked="Button_OnClicked_GoToViewWorkoutPage"
+                    />
+            <Button Text="Create"
+                    BackgroundColor="Gold"
+                    Clicked="Button_OnClicked_GoToCreateWorkoutPage"
+                    />
+            <Button Text="Workout"
+                    BackgroundColor="Gold"
+                    Clicked="Button_OnClicked_GoToWorkoutPage"/>
+            <Button Text="FriendZone"
+                    BackgroundColor="Gold"
+                    Clicked="Button_OnClicked_GoToFriendZone"
+            />
+        </StackLayout>
+        
+    </StackLayout>
+        
+</ContentPage>
