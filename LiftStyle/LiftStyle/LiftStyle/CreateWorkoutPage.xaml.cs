@@ -21,5 +21,9 @@ namespace LiftStyle
         {
             Navigation.PushAsync(new MainPage());
         }
+        private void Button_OnClicked_CreateWorkout(object sender, EventArgs e)
+        {
+            //Put code in here that makes the workout
+        }
     }
 }
