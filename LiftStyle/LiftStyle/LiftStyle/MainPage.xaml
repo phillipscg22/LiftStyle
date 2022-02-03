@@ -43,7 +43,7 @@
                     Clicked="Button_OnClicked_GoToWorkoutPage"/>
             <Button Text="FriendZone"
                     BackgroundColor="Gold"
-                    Clicked="Button_OnClicked_GoToFriendZone"
+                    Clicked="Button_OnClicked_GoToLoginPage"
             />
         </StackLayout>
         
