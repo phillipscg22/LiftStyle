@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9Tu5RnmjPQYvobabm+5AgMxaQKfPzpHAaZYGsryfS4DMWPfLOP120/CgQ9yYxSZCM4xNZa1v6t7jflYl7+qvhg==",
+  "dgSpecHash": "A/Y25/tVCaYfecV3i7Pgn2Cd/TyL/OBdROPevGweKYy8mBdu5dPRHeIYIPHG5XaiG5pz0U7LzsbiinW7q4sS/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj",
+  "projectFilePath": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phill\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\phill\\.nuget\\packages\\mongocsharpdriver\\2.14.1\\mongocsharpdriver.2.14.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SEYCIfwlMp76QgQ2hpJUbBArcP/zq8/S70mfiE7ur+K0mLHO//LrHGK7J4zoy5OhImtXYjDRn0+aGy+vLEV6vA==",
+  "dgSpecHash": "AGyENkClnINvg8bFjh6Xqcv0dBqi9VP3DOg32aYgEHJQoMlQHXBJlIV3Rje8H15GlEauQwSgM4bxXYxhLja8ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle.iOS\\LiftStyle.iOS.csproj",
+  "projectFilePath": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.iOS\\LiftStyle.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phill\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\phill\\.nuget\\packages\\mongocsharpdriver\\2.14.1\\mongocsharpdriver.2.14.1.nupkg.sha512",

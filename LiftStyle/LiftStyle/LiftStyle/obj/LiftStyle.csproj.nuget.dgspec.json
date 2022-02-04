@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {}
+    "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
+    "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
+        "projectUniqueName": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
         "projectName": "LiftStyle",
-        "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
+        "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
         "packagesPath": "C:\\Users\\phill\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\obj\\",
+        "outputPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phill\\AppData\\Roaming\\NuGet\\NuGet.Config",
