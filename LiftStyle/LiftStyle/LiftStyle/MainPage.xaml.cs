@@ -36,9 +36,9 @@ namespace LiftStyle
             Navigation.PushAsync(new WorkoutPage());
         }
 
-        private void Button_OnClicked_GoToFriendZone(object sender, EventArgs e)
+        private void Button_OnClicked_GoToLoginPage(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new FrindZonePage());
+            Navigation.PushAsync(new LoginPage());
         }
     }
 }

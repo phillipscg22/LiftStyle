@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj": {}
+    "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj": {
+    "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj",
+        "projectUniqueName": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj",
         "projectName": "LiftStyle.Android",
-        "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj",
-        "packagesPath": "C:\\Users\\phill\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.Android\\obj\\",
+        "projectPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj",
+        "packagesPath": "C:\\Users\\carte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\phill\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\carte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
-                "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj"
+              "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
+                "projectPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj"
               }
             }
           }
@@ -66,17 +70,21 @@
         }
       }
     },
-    "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
+    "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
+        "projectUniqueName": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
         "projectName": "LiftStyle",
-        "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
-        "packagesPath": "C:\\Users\\phill\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\obj\\",
+        "projectPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
+        "packagesPath": "C:\\Users\\carte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\phill\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\carte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
