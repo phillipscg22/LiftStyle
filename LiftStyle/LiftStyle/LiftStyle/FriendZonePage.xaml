@@ -5,9 +5,20 @@
              x:Class="LiftStyle.FrindZonePage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Hello, world!"
+            <Label Text="Welcome to the Friendzone"
                    VerticalOptions="CenterAndExpand"
                    HorizontalOptions="CenterAndExpand" />
+            
+            
+            <!-- this is the return home button !-->
+            <Button VerticalOptions="EndAndExpand" 
+                    HorizontalOptions="Fill" 
+                    BackgroundColor="Gold" 
+                    Text="Home"
+                    Clicked="Button_OnClicked_GoToMainPage"></Button>
+            
         </StackLayout>
+        
+        
     </ContentPage.Content>
 </ContentPage>

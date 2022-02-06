@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LiftStyle"
+             x:Class="LiftStyle.CreateAccountPage">
+
+        
+    <StackLayout BackgroundColor="#999c94">
+        <!-- This is a vertical layout inside the main pane at the top containing the name -->
+        <StackLayout BackgroundColor="Gold" >
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                HorizontalTextAlignment="Center"
+                TextColor="Black"
+                FontSize="Title"
+                Text="LiftStyle: Create Share Grow"/>
+                    
+            <!-- ending here -->
+        </StackLayout>
+            
+        <!-- This is the middle section -->
+        <StackLayout >
+            <Entry Placeholder="Username"/>
+            <Entry Placeholder="Password"/>
+        </StackLayout>
+            
+        <StackLayout  Orientation="Horizontal">
+            <Button 
+                Text="create account"
+            />
+        </StackLayout>
+            
+        <Button VerticalOptions="EndAndExpand" 
+                HorizontalOptions="Fill" 
+                BackgroundColor="Gold" 
+                Text="Home"
+                Clicked="Button_OnClicked_GoToMainPage"></Button>
+        
+    </StackLayout>
+        
+</ContentPage>
