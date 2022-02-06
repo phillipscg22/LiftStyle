@@ -17,9 +17,17 @@ namespace LiftStyle
             await Navigation.PushAsync(new FrindZonePage());
         }
      
+        private void Button_OnClicked_GoToCreateAccountPage(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CreateAccountPage());
+        }
+        
         private void Button_OnClicked_GoToMainPage(object sender, EventArgs e)
         {
             Navigation.PushAsync(new MainPage());
         }
+        
+    
+        
     }
 }

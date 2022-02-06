@@ -47,3 +47,4 @@ C:\Users\carte\RiderProjects\LiftStyle\LiftStyle\LiftStyle\LiftStyle\bin\Debug\n
 C:\Users\carte\RiderProjects\LiftStyle\LiftStyle\LiftStyle\LiftStyle\bin\Debug\netstandard2.0\LiftStyle.dll
 C:\Users\carte\RiderProjects\LiftStyle\LiftStyle\LiftStyle\LiftStyle\bin\Debug\netstandard2.0\LiftStyle.pdb
 C:\Users\carte\RiderProjects\LiftStyle\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\carte\RiderProjects\LiftStyle\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\CreateAccountPage.xaml.g.cs
