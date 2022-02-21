@@ -45,5 +45,10 @@ namespace LiftStyle
         {
             Navigation.PushAsync(new HelpPage());
         }
+
+        private void Button_OnClicked_GoToSettingsPage(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SettingsPage());
+        }
     }
 }
