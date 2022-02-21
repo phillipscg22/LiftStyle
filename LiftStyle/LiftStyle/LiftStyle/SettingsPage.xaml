@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LiftStyle.SettingsPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#999c94">
+            <!-- This is a vertical layout inside the main pane at the top containing the name -->
+            <StackLayout BackgroundColor="Gold" >
+                <Label
+                    HorizontalOptions="CenterAndExpand"
+                    HorizontalTextAlignment="Center"
+                    TextColor="Black"
+                    FontSize="Title"
+                    Text="LiftStyle: Create Share Grow"/>
+                    
+                <!-- ending here -->
+            </StackLayout>
+            
+            <Label
+                    HorizontalOptions="CenterAndExpand"
+                    HorizontalTextAlignment="Center"
+                    TextColor="Black"
+                    FontSize="Title"
+                    Text="Settings Page"
+                    />
+            
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" BackgroundColor="Red">
+                    
+                <Button Text="Account Creation"
+                        BackgroundColor="Gold" 
+                        Clicked="Button_OnClicked_GoToCreateAccountPage"
+                />
+                <Button Text="Color Options"
+                        BackgroundColor="Gold"
+                />
+                <Button Text="Account Preferences"
+                        BackgroundColor="Gold"
+                        />
+            
+                <Button Text="Change Password"
+                        BackgroundColor="Gold"
+                        />
+            
+            </StackLayout>
+            
+            <Button VerticalOptions="EndAndExpand" 
+                    HorizontalOptions="Fill" 
+                    BackgroundColor="Gold" 
+                    Text="Home"
+                    Clicked="Button_OnClicked_GoToMainPage"></Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -38,12 +38,24 @@
                     BackgroundColor="Gold"
                     Clicked="Button_OnClicked_GoToCreateWorkoutPage"
                     />
-            <Button Text="Workout"
+            <Button Text="Help"
                     BackgroundColor="Gold"
-                    Clicked="Button_OnClicked_GoToWorkoutPage"/>
+                    Clicked="Button_OnClicked_GoToHelpPage"/>
+            
             <Button Text="FriendZone"
                     BackgroundColor="Gold"
                     Clicked="Button_OnClicked_GoToLoginPage"/>
+            
+        </StackLayout>
+        
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" BackgroundColor="Red">
+            
+            <Button Text="Workout"
+                    BackgroundColor="Gold"
+                    Clicked="Button_OnClicked_GoToWorkoutPage"/>
+            <Button Text="Settings"
+                    BackgroundColor="Gold"
+                    Clicked="Button_OnClicked_GoToSettingsPage"/>
         </StackLayout>
         
     </StackLayout>
