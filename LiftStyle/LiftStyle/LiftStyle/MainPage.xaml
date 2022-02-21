@@ -38,13 +38,19 @@
                     BackgroundColor="Gold"
                     Clicked="Button_OnClicked_GoToCreateWorkoutPage"
                     />
-            <Button Text="Workout"
+            <Button Text="Help"
                     BackgroundColor="Gold"
-                    Clicked="Button_OnClicked_GoToWorkoutPage"/>
+                    Clicked="Button_OnClicked_GoToHelpPage"/>
+            
             <Button Text="FriendZone"
                     BackgroundColor="Gold"
                     Clicked="Button_OnClicked_GoToLoginPage"/>
+            
         </StackLayout>
+        <Button Text="Workout"
+                BackgroundColor="Gold"
+                Clicked="Button_OnClicked_GoToWorkoutPage"/>
+        
         
     </StackLayout>
         
