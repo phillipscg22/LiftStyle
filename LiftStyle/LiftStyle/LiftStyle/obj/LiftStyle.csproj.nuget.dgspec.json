@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bowli\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {}
+    "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bowli\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
+    "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bowli\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
+        "projectUniqueName": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
         "projectName": "LiftStyle",
-        "projectPath": "C:\\Users\\bowli\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
-        "packagesPath": "C:\\Users\\bowli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bowli\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\obj\\",
+        "projectPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
+        "packagesPath": "C:\\Users\\carte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\bowli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\carte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,7 +85,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Users\\bowli\\.dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

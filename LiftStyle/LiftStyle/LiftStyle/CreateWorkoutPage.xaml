@@ -67,6 +67,8 @@
                         <x:String>100</x:String>
                     </Picker.Items>
                 </Picker>
+                <Entry Placeholder="Weight"/>
+                    
             </StackLayout>
             <!-- End Example!-->
                         <Entry BackgroundColor="#7d8079" Placeholder="Exercise 2" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
@@ -129,6 +131,8 @@
                         <x:String>100</x:String>
                     </Picker.Items>
                 </Picker>
+                <Entry Placeholder="Weight"/>
+
             </StackLayout>
                         <Entry BackgroundColor="#7d8079" Placeholder="Exercise 3" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
             <StackLayout Orientation="Horizontal" Spacing="25" >
@@ -190,6 +194,8 @@
                         <x:String>100</x:String>
                     </Picker.Items>
                 </Picker>
+                <Entry Placeholder="Weight"/>
+
             </StackLayout>
                         <Entry BackgroundColor="#7d8079" Placeholder="Exercise 4" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
             <StackLayout Orientation="Horizontal" Spacing="25" >
@@ -251,6 +257,8 @@
                         <x:String>100</x:String>
                     </Picker.Items>
                 </Picker>
+                <Entry Placeholder="Weight"/>
+
             </StackLayout>
                         <Entry BackgroundColor="#7d8079" Placeholder="Exercise 5" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
             <StackLayout Orientation="Horizontal" Spacing="25" >
@@ -312,6 +320,8 @@
                         <x:String>100</x:String>
                     </Picker.Items>
                 </Picker>
+                <Entry Placeholder="Weight"/>
+
             </StackLayout>
                         <Entry BackgroundColor="#7d8079" Placeholder="Exercise 6" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
             <StackLayout Orientation="Horizontal" Spacing="25" >
@@ -373,6 +383,8 @@
                         <x:String>100</x:String>
                     </Picker.Items>
                 </Picker>
+                <Entry Placeholder="Weight"/>
+
             </StackLayout>
                         <Entry BackgroundColor="#7d8079" Placeholder="Exercise 7" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
             <StackLayout Orientation="Horizontal" Spacing="25" >
@@ -434,6 +446,8 @@
                         <x:String>100</x:String>
                     </Picker.Items>
                 </Picker>
+                <Entry Placeholder="Weight"/>
+
             </StackLayout>
                         <Entry BackgroundColor="#7d8079" Placeholder="Exercise 8" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
             <StackLayout Orientation="Horizontal" Spacing="25" >
@@ -495,6 +509,8 @@
                         <x:String>100</x:String>
                     </Picker.Items>
                 </Picker>
+                <Entry Placeholder="Weight"/>
+
             </StackLayout>
                         <Entry BackgroundColor="#7d8079" Placeholder="Exercise 9" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
             <StackLayout Orientation="Horizontal" Spacing="25" >
@@ -556,6 +572,8 @@
                         <x:String>100</x:String>
                     </Picker.Items>
                 </Picker>
+                <Entry Placeholder="Weight"/>
+
             </StackLayout>
                         <Entry BackgroundColor="#7d8079" Placeholder="Exercise 10" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
             <StackLayout Orientation="Horizontal" Spacing="25" >
@@ -617,6 +635,8 @@
                         <x:String>100</x:String>
                     </Picker.Items>
                 </Picker>
+                <Entry Placeholder="Weight"/>
+
             </StackLayout>
             
             <Button HorizontalOptions="Fill" 
