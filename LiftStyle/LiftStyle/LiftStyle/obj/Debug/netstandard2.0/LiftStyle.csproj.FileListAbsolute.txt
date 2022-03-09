@@ -102,3 +102,4 @@ C:\Users\bowli\RiderProjects\LiftStyle\LiftStyle\LiftStyle\LiftStyle\obj\Debug\n
 C:\Users\bowli\RiderProjects\LiftStyle\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\LiftStyle.pdb
 C:\Users\phill\RiderProjects\LiftStyle\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\HelpPage.xaml.g.cs
 C:\Users\phill\RiderProjects\LiftStyle\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\SettingsPage.xaml.g.cs
+C:\Users\phill\RiderProjects\LiftStyle\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\GoalsPage.xaml.g.cs

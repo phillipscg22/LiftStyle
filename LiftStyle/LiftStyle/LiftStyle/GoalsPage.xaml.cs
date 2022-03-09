@@ -16,5 +16,10 @@ namespace LiftStyle
         {
             InitializeComponent();
         }
+        
+        private void Button_OnClicked_GoToMainPage(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage());
+        }
     }
 }

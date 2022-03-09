@@ -50,5 +50,10 @@ namespace LiftStyle
         {
             Navigation.PushAsync(new SettingsPage());
         }
+        
+        private void Button_OnClicked_GoToGoalsPage(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new GoalsPage());
+        }
     }
 }

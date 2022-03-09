@@ -4,10 +4,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LiftStyle.GoalsPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="This is my only goal"
+        <StackLayout BackgroundColor="#999c94">
+            <Label HorizontalOptions="Center"
+                   VerticalOptions="Start"
+                   FontSize="Title"
+                   TextColor="Red">Goals Page</Label>
+            <Label Text="Get yoked"
+                   FontSize="Large"
+                   TextColor="Firebrick"
+                   BackgroundColor="Yellow"
                    VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="CenterAndExpand" />
+                   HorizontalOptions="Fill" />
+            <Button VerticalOptions="EndAndExpand" 
+                    HorizontalOptions="Fill" 
+                    BackgroundColor="Gold" 
+                    Text="Home"
+                    Clicked="Button_OnClicked_GoToMainPage"></Button>
         </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>

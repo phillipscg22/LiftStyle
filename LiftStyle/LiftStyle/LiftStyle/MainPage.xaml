@@ -58,6 +58,9 @@
             <Button Text="Settings"
                     BackgroundColor="Gold"
                     Clicked="Button_OnClicked_GoToSettingsPage"/>
+            <Button Text="Goals"
+                    BackgroundColor="Gold"
+                    Clicked="Button_OnClicked_GoToGoalsPage"/>
         </StackLayout>
         
     </StackLayout>
