@@ -19,11 +19,13 @@
         </StackLayout>
             
         <!-- This is the middle section -->
-        <Label Text="This area can be replaced with a pane to display a logo" 
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand"
-        />
-        
+        <Label 
+            x:Name="Goals"
+            Text=""
+            HorizontalOptions="Center" 
+            VerticalOptions="CenterAndExpand">
+            
+        </Label>
         <Image Source="VMI_Logo.png"></Image>
             
             
