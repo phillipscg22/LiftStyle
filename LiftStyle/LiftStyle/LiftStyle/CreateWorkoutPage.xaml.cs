@@ -24,15 +24,19 @@ namespace LiftStyle
         }
         private void Button_OnClicked_CreateWorkout(object sender, EventArgs e)
         {
-            /*
+            
             //Put code in here that makes the workout
-            var path = "LiftStyle/CurrentWorkout,txt";
+            var path = "LiftStyle/CurrentWorkout.txt";
+            //not sure if this if statement is needed.
             if (File.Exists(path)== false)
             {
-                File.Create(path);
-                //StringWriter sw = File.AppendText(path);
+                using (StreamWriter sw = File.CreateText(path))
+                {
+                    //this should contain a for loop to iterate through the create workout to send the data to a saving document
+                    sw.WriteLine("Exercise"+":"+"Reps"+":"+"Weight"+":");
+                }	
             }
-            */
+            
             
         }
     }
