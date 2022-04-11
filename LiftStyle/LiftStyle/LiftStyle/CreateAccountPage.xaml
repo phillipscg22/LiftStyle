@@ -27,6 +27,7 @@
         <StackLayout  Orientation="Horizontal">
             <Button 
                 Text="create account"
+                Clicked = "Button_OnClicked_IncompleteAlert"
             />
         </StackLayout>
             

@@ -23,7 +23,14 @@ namespace LiftStyle
         private void Button_OnClicked_GoToMainPage(object sender, EventArgs e)
         {
             Navigation.PushAsync(new MainPage());
+            
         }
 
+        private void Button_OnClicked_IncompleteAlert(object sender, EventArgs e)
+        {
+            DisplayAlert("ALERT!", "There should be implementation for account creation in this alert's stead.", "Check, Rog");
+        }
+
+        
     }
 }
