@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,7 +24,15 @@ namespace LiftStyle
         }
         private void Button_OnClicked_CreateWorkout(object sender, EventArgs e)
         {
+            /*
             //Put code in here that makes the workout
+            var path = "LiftStyle/CurrentWorkout,txt";
+            if (File.Exists(path)== false)
+            {
+                File.Create(path);
+                //StringWriter sw = File.AppendText(path);
+            }
+            */
             
         }
     }
