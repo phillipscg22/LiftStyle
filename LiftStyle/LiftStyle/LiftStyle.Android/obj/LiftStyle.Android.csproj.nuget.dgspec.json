@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj": {}
+    "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj": {
+    "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj",
+        "projectUniqueName": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj",
         "projectName": "LiftStyle.Android",
-        "projectPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj",
-        "packagesPath": "C:\\Users\\carte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.Android\\obj\\",
+        "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj",
+        "packagesPath": "C:\\Users\\phill\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\carte\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\phill\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "monoandroid11.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
-                "projectPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj"
+              "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
+                "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj"
               }
             }
           }
@@ -64,22 +66,24 @@
         }
       }
     },
-    "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
+    "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
+        "projectUniqueName": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
         "projectName": "LiftStyle",
-        "projectPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
-        "packagesPath": "C:\\Users\\carte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\obj\\",
+        "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
+        "packagesPath": "C:\\Users\\phill\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\carte\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\phill\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -139,7 +143,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Users\\carte\\.dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

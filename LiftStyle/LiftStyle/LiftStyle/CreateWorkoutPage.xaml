@@ -649,7 +649,11 @@
                     BackgroundColor="Gold" 
                     Text="Home"
                     Clicked="Button_OnClicked_GoToMainPage"/>
+            
         </StackLayout>
+            
         </ScrollView>
+        
+        
     </ContentPage.Content>
 </ContentPage>

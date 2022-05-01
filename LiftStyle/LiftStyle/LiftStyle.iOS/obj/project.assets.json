@@ -1880,32 +1880,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carte\\.nuget\\packages\\": {}
+    "C:\\Users\\phill\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.iOS\\LiftStyle.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle.iOS\\LiftStyle.iOS.csproj",
       "projectName": "LiftStyle.iOS",
-      "projectPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.iOS\\LiftStyle.iOS.csproj",
-      "packagesPath": "C:\\Users\\carte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.iOS\\obj\\",
+      "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle.iOS\\LiftStyle.iOS.csproj",
+      "packagesPath": "C:\\Users\\phill\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\carte\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\phill\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
-              "projectPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj"
+            "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
+              "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj"
             }
           }
         }

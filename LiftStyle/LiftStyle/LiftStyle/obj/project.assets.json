@@ -1047,24 +1047,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carte\\.nuget\\packages\\": {}
+    "C:\\Users\\phill\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
+      "projectUniqueName": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
       "projectName": "LiftStyle",
-      "projectPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
-      "packagesPath": "C:\\Users\\carte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carte\\RiderProjects\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle\\obj\\",
+      "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
+      "packagesPath": "C:\\Users\\phill\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\carte\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\phill\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1124,7 +1126,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Users\\carte\\.dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
