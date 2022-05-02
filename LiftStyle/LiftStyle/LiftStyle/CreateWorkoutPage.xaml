@@ -659,7 +659,22 @@
                 </StackLayout>
                 <!-- This is a workout module end -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
                 
-                
+                <Picker x:Name="WorkoutSelect" 
+                        Title="Select Save Slot"
+                        HorizontalOptions="FillAndExpand"
+                        BackgroundColor="MintCream">
+                    <Picker.Items>
+                        <x:String>Alpha</x:String>
+                        <x:String>Bravo</x:String>
+                        <x:String>Charlie</x:String>
+                        <x:String>Delta</x:String>
+                        <x:String>Echo</x:String>
+                        <x:String>Foxtrot</x:String>
+                        <x:String>Golf</x:String>
+                        <x:String>Hollywood</x:String>
+                        <x:String>India</x:String>
+                    </Picker.Items>
+                </Picker>
                 
                 <Button HorizontalOptions="Fill" 
                         BackgroundColor="Red" 

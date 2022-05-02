@@ -41,6 +41,42 @@ namespace LiftStyle
             }
         }
 
+        private void Button_OnClicked_UpdateWorkout(object sender, EventArgs e)
+        {
+            
+            // Set a variable to the Documents path.
+            string docPath =
+                Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+            try
+            {
+                string workout = WorkoutSelect.SelectedItem.ToString() + ".txt";
+
+                string[] exercises = File.ReadAllLines(Path.Combine(docPath, workout));
+
+                try
+                {
+                    ex1.Text = exercises[0];
+                    ex2.Text = exercises[1];
+                    ex3.Text = exercises[2];
+                    ex4.Text = exercises[3];
+                    ex5.Text = exercises[4];
+                    ex6.Text = exercises[5];
+                    ex7.Text = exercises[6];
+                    ex8.Text = exercises[7];
+                    ex9.Text = exercises[8];
+                    ex10.Text = exercises[9];
+                }
+                catch (Exception ignored)
+                {
+                }
+            }
+            catch (Exception er)
+            {
+                Navigation.PushAsync(new ViewWorkoutPage());
+            }
+        }
+
         private void Button_OnClicked_GoToMainPage(object sender, EventArgs e)
         {
             Navigation.PushAsync(new MainPage());

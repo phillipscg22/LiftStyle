@@ -8,26 +8,50 @@
             <!--<Label Text="View Workout Page"
                    VerticalOptions="CenterAndExpand"
                    HorizontalOptions="CenterAndExpand" />-->
+
+            <StackLayout>
+                <Label x:Name="ex1" TextColor="Black" FontSize="Large" />
+                <Label x:Name="ex2" BackgroundColor="#7d8079" TextColor="Black" FontSize="Large" />
+                <Label x:Name="ex3" TextColor="Black" FontSize="Large" />
+                <Label x:Name="ex4" BackgroundColor="#7d8079" TextColor="Black" FontSize="Large" />
+                <Label x:Name="ex5" TextColor="Black" FontSize="Large" />
+                <Label x:Name="ex6" BackgroundColor="#7d8079" TextColor="Black" FontSize="Large" />
+                <Label x:Name="ex7" TextColor="Black" FontSize="Large" />
+                <Label x:Name="ex8" BackgroundColor="#7d8079" TextColor="Black" FontSize="Large" />
+                <Label x:Name="ex9" TextColor="Black" FontSize="Large" />
+                <Label x:Name="ex10" BackgroundColor="#7d8079" TextColor="Black" FontSize="Large" />
+            </StackLayout>
+
+            <Picker x:Name="WorkoutSelect"
+                    Title="Select Save Slot"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="EndAndExpand"
+                    BackgroundColor="MintCream">
+                <Picker.Items>
+                    <x:String>Alpha</x:String>
+                    <x:String>Bravo</x:String>
+                    <x:String>Charlie</x:String>
+                    <x:String>Delta</x:String>
+                    <x:String>Echo</x:String>
+                    <x:String>Foxtrot</x:String>
+                    <x:String>Golf</x:String>
+                    <x:String>Hollywood</x:String>
+                    <x:String>India</x:String>
+                </Picker.Items>
+            </Picker>
             
-                <StackLayout>
-                    <Label x:Name="ex1" TextColor="Black" FontSize="Large" ></Label>
-                    <Label x:Name="ex2" BackgroundColor="#7d8079" TextColor="Black" FontSize="Large"></Label>
-                    <Label x:Name="ex3" TextColor="Black" FontSize="Large" ></Label>
-                    <Label x:Name="ex4" BackgroundColor="#7d8079" TextColor="Black" FontSize="Large"></Label>
-                    <Label x:Name="ex5" TextColor="Black" FontSize="Large" ></Label>
-                    <Label x:Name="ex6" BackgroundColor="#7d8079" TextColor="Black" FontSize="Large"></Label>
-                    <Label x:Name="ex7" TextColor="Black" FontSize="Large" ></Label>
-                    <Label x:Name="ex8" BackgroundColor="#7d8079" TextColor="Black" FontSize="Large"></Label>
-                    <Label x:Name="ex9" TextColor="Black" FontSize="Large" ></Label>
-                    <Label x:Name="ex10" BackgroundColor="#7d8079" TextColor="Black" FontSize="Large"></Label>
-                </StackLayout>
-            
-                <Button VerticalOptions="EndAndExpand" 
-                        HorizontalOptions="Fill" 
-                        BackgroundColor="Gold" 
-                        Text="Home"
-                        Clicked="Button_OnClicked_GoToMainPage"></Button>
-            
+            <Button x:Name="Update"
+                    Text="Load Selected"
+                    HorizontalOptions="Fill"
+                    BackgroundColor="LightGreen"
+                    Clicked="Button_OnClicked_UpdateWorkout"></Button>
+
+            <Button VerticalOptions="EndAndExpand"
+                    HorizontalOptions="Fill"
+                    BackgroundColor="Gold"
+                    Text="Home"
+                    Clicked="Button_OnClicked_GoToMainPage" />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
