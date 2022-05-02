@@ -152,7 +152,6 @@ C:\Users\phill\RiderProjects\LiftStyle22\LiftStyle\LiftStyle\LiftStyle\obj\Debug
 C:\Users\phill\RiderProjects\LiftStyle22\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\CreateWorkoutPage.xaml.g.cs
 C:\Users\phill\RiderProjects\LiftStyle22\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\FriendZonePage.xaml.g.cs
 C:\Users\phill\RiderProjects\LiftStyle22\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\GoalsPage.xaml.g.cs
-C:\Users\phill\RiderProjects\LiftStyle22\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\HelpPage.xaml.g.cs
 C:\Users\phill\RiderProjects\LiftStyle22\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
 C:\Users\phill\RiderProjects\LiftStyle22\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\phill\RiderProjects\LiftStyle22\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\SettingsPage.xaml.g.cs
@@ -164,3 +163,4 @@ C:\Users\phill\RiderProjects\LiftStyle22\LiftStyle\LiftStyle\LiftStyle\obj\Debug
 C:\Users\phill\RiderProjects\LiftStyle22\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\phill\RiderProjects\LiftStyle22\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\LiftStyle.dll
 C:\Users\phill\RiderProjects\LiftStyle22\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\LiftStyle.pdb
+C:\Users\phill\RiderProjects\LiftStyle22\LiftStyle\LiftStyle\LiftStyle\obj\Debug\netstandard2.0\FAQ.xaml.g.cs

@@ -43,9 +43,9 @@ namespace LiftStyle
             Navigation.PushAsync(new LoginPage());
         }
         
-        private void Button_OnClicked_GoToHelpPage(object sender, EventArgs e)
+        private void Button_OnClicked_GoToFAQPage(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new HelpPage());
+            Navigation.PushAsync(new FAQPage());
         }
 
         private void Button_OnClicked_GoToSettingsPage(object sender, EventArgs e)

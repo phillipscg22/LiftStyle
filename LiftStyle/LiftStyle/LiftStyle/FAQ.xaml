@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LiftStyle.FAQPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#999c94">
+            <!-- This is a vertical layout inside the main pane at the top containing the name -->
+            <StackLayout BackgroundColor="Gold" >
+                <Label
+                    HorizontalOptions="CenterAndExpand"
+                    HorizontalTextAlignment="Center"
+                    TextColor="Black"
+                    FontSize="Title"
+                    Text="LiftStyle: Create Share Grow"/>
+                    
+                <!-- ending here -->
+            </StackLayout>
+            
+            <Label
+                    HorizontalOptions="CenterAndExpand"
+                    HorizontalTextAlignment="Center"
+                    TextColor="Black"
+                    FontSize="Title"
+                    Text="Help Screen: select a prompt below to learn more"
+                    />
+            
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" BackgroundColor="Red">
+                    
+                <Button Text="How to View a Workout"
+                        BackgroundColor="Gold" 
+                        Clicked="Button_OnClicked_FAQ1"
+                />
+                <Button Text="How to Create a Workout"
+                        BackgroundColor="Gold"
+                        Clicked="Button_OnClicked_FAQ2"
+                />
+                <Button Text="Why These Colors"
+                        BackgroundColor="Gold" 
+                        Clicked="Button_OnClicked_FAQ3"
+                />
+                <Button Text="Who are the Developers"
+                        BackgroundColor="Gold"
+                        Clicked="Button_OnClicked_FAQ4"
+                />
+            
+            </StackLayout>
+            
+            <Button VerticalOptions="EndAndExpand" 
+                    HorizontalOptions="Fill" 
+                    BackgroundColor="Gold" 
+                    Text="Home"
+                    Clicked="Button_OnClicked_GoToMainPage">
+                
+            </Button>
+            
+        </StackLayout>
+        
+        
+        
+
+    </ContentPage.Content>
+</ContentPage>
