@@ -17,29 +17,28 @@ namespace LiftStyle
         {
             InitializeComponent();
             
-            //Put code in here that views the workout saved on a temp file
-            var path = "LiftStyle/CurrentWorkout.txt";
-            //not sure if this if statement is needed.
-            if (File.Exists(path))
-            {
-                using (StreamReader sr = File.OpenText(path))
-                {
-                    //this should contain a for loop to iterate through the create workout to send the data to a saving document
-                    while (!sr.EndOfStream)
-                    {
-                        //take the doc and read line by line
-                       string temp= sr.ReadLine();
-                       string weight;
-                       string reps;
-                       string exercise;
-                       //now take the line and break apart the data seperated by ":" and assign to the corresponding vars
-                       //funct
-                       //now take the vars and print them to the text fields.
+            // Set a variable to the Documents path.
+            string docPath =
+                Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
 
-                    }
-                }	
+            string [] exercises = File.ReadAllLines(Path.Combine(docPath, "CurrentWorkout.txt"));
+
+            try
+            {
+                ex1.Text = exercises[0];
+                ex2.Text = exercises[1];
+                ex3.Text = exercises[2];
+                ex4.Text = exercises[3];
+                ex5.Text = exercises[4];
+                ex6.Text = exercises[5];
+                ex7.Text = exercises[6];
+                ex8.Text = exercises[7];
+                ex9.Text = exercises[8];
+                ex10.Text = exercises[9];
             }
-            
+            catch (Exception ignored)
+            {
+            }
         }
 
         private void Button_OnClicked_GoToMainPage(object sender, EventArgs e)

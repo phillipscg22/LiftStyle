@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "251/R+VQnGEN4Li3wipWwSBXLibJZecyajVpYE+Rya53GAgqGL9cll7KuHh7kCON3XA3x96tYVa7bU0k59XysQ==",
+  "dgSpecHash": "rxscAuV9iSOePpe+4b9CLEoXMSRmsl1JQMyDP21Eb5S3KEHkOyAH0RxnRVLxQrWZ0FBIge++ZEVTn5XbL59i2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
+  "projectFilePath": "C:\\Users\\phill\\RiderProjects\\LiftStyle22\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phill\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\phill\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

@@ -5,655 +5,679 @@
              x:Class="LiftStyle.CreateWorkoutPage">
     <ContentPage.Content>
         <ScrollView> <!-- this should let us scroll!-->
-        <StackLayout BackgroundColor="#999c94" >
-            <!-- All below is the code for adding a workout to the create page. there is probably a better way!-->
-            <Entry BackgroundColor="#7d8079" Placeholder="Exercise 1" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
-            <StackLayout Orientation="Horizontal" Spacing="25" >
-                <Entry IsReadOnly="True" Text="sets" />
-                <Picker Title="0" HorizontalOptions="FillAndExpand" >
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry IsReadOnly="True" Text="reps"/>
-                <Picker Title="0" HorizontalOptions="FillAndExpand">
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry Placeholder="Weight"/>
-                    
+            <StackLayout BackgroundColor="#999c94" >  <!-- this is the main stack layout!-->
+                <!-- All below is the code for adding a workout to the create page. there is probably a better way!-->
+                
+                
+                <!-- This is a workout module  -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                <Entry x:Name="exName1" BackgroundColor="#7d8079" Placeholder="Exercise 1" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
+                <StackLayout Orientation="Horizontal" Spacing="25" >
+                    <Entry IsReadOnly="True" Text="sets" />
+                    <Picker x:Name="exSets1" Title="0" HorizontalOptions="FillAndExpand" >
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry IsReadOnly="True" Text="reps"/>
+                    <Picker x:Name="exReps1" Title="0" HorizontalOptions="FillAndExpand">
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry x:Name="exWeight1" Placeholder="Weight"/>
+                </StackLayout>
+                <!-- This is a workout module end -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                
+                <!-- This is a workout module  -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                <Entry x:Name="exName2" BackgroundColor="#7d8079" Placeholder="Exercise 2" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
+                <StackLayout Orientation="Horizontal" Spacing="25" >
+                    <Entry IsReadOnly="True" Text="sets" />
+                    <Picker x:Name="exSets2" Title="0" HorizontalOptions="FillAndExpand" >
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry IsReadOnly="True" Text="reps"/>
+                    <Picker x:Name="exReps2" Title="0" HorizontalOptions="FillAndExpand">
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry x:Name="exWeight2" Placeholder="Weight"/>
+                </StackLayout>
+                <!-- This is a workout module end -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                
+                 <!-- This is a workout module  -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                <Entry x:Name="exName3" BackgroundColor="#7d8079" Placeholder="Exercise 3" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
+                <StackLayout Orientation="Horizontal" Spacing="25" >
+                    <Entry IsReadOnly="True" Text="sets" />
+                    <Picker x:Name="exSets3" Title="0" HorizontalOptions="FillAndExpand" >
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry IsReadOnly="True" Text="reps"/>
+                    <Picker x:Name="exReps3" Title="0" HorizontalOptions="FillAndExpand">
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry x:Name="exWeight3" Placeholder="Weight"/>
+                </StackLayout>
+                <!-- This is a workout module end -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                
+                 <!-- This is a workout module  -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                <Entry x:Name="exName4" BackgroundColor="#7d8079" Placeholder="Exercise 4" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
+                <StackLayout Orientation="Horizontal" Spacing="25" >
+                    <Entry IsReadOnly="True" Text="sets" />
+                    <Picker x:Name="exSets4" Title="0" HorizontalOptions="FillAndExpand" >
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry IsReadOnly="True" Text="reps"/>
+                    <Picker x:Name="exReps4" Title="0" HorizontalOptions="FillAndExpand">
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry x:Name="exWeight4" Placeholder="Weight"/>
+                </StackLayout>
+                <!-- This is a workout module end -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                
+                 <!-- This is a workout module  -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                <Entry x:Name="exName5" BackgroundColor="#7d8079" Placeholder="Exercise 5" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
+                <StackLayout Orientation="Horizontal" Spacing="25" >
+                    <Entry IsReadOnly="True" Text="sets" />
+                    <Picker x:Name="exSets5" Title="0" HorizontalOptions="FillAndExpand" >
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry IsReadOnly="True" Text="reps"/>
+                    <Picker x:Name="exReps5" Title="0" HorizontalOptions="FillAndExpand">
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry x:Name="exWeight5" Placeholder="Weight"/>
+                </StackLayout>
+                <!-- This is a workout module end -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                
+                 <!-- This is a workout module  -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                <Entry x:Name="exName6" BackgroundColor="#7d8079" Placeholder="Exercise 6" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
+                <StackLayout Orientation="Horizontal" Spacing="25" >
+                    <Entry IsReadOnly="True" Text="sets" />
+                    <Picker x:Name="exSets6" Title="0" HorizontalOptions="FillAndExpand" >
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry IsReadOnly="True" Text="reps"/>
+                    <Picker x:Name="exReps6" Title="0" HorizontalOptions="FillAndExpand">
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry x:Name="exWeight6" Placeholder="Weight"/>
+                </StackLayout>
+                <!-- This is a workout module end -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                
+                 <!-- This is a workout module  -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                <Entry x:Name="exName7" BackgroundColor="#7d8079" Placeholder="Exercise 7" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
+                <StackLayout Orientation="Horizontal" Spacing="25" >
+                    <Entry IsReadOnly="True" Text="sets" />
+                    <Picker x:Name="exSets7" Title="0" HorizontalOptions="FillAndExpand" >
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry IsReadOnly="True" Text="reps"/>
+                    <Picker x:Name="exReps7" Title="0" HorizontalOptions="FillAndExpand">
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry x:Name="exWeight7" Placeholder="Weight"/>
+                </StackLayout>
+                <!-- This is a workout module end -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                
+                 <!-- This is a workout module  -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                <Entry x:Name="exName8" BackgroundColor="#7d8079" Placeholder="Exercise 8" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
+                <StackLayout Orientation="Horizontal" Spacing="25" >
+                    <Entry IsReadOnly="True" Text="sets" />
+                    <Picker x:Name="exSets8" Title="0" HorizontalOptions="FillAndExpand" >
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry IsReadOnly="True" Text="reps"/>
+                    <Picker x:Name="exReps8" Title="0" HorizontalOptions="FillAndExpand">
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry x:Name="exWeight8" Placeholder="Weight"/>
+                </StackLayout>
+                <!-- This is a workout module end -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                
+                 <!-- This is a workout module  -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                <Entry x:Name="exName9" BackgroundColor="#7d8079" Placeholder="Exercise 9" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
+                <StackLayout Orientation="Horizontal" Spacing="25" >
+                    <Entry IsReadOnly="True" Text="sets" />
+                    <Picker x:Name="exSets9" Title="0" HorizontalOptions="FillAndExpand" >
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry IsReadOnly="True" Text="reps"/>
+                    <Picker x:Name="exReps9" Title="0" HorizontalOptions="FillAndExpand">
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry x:Name="exWeight9" Placeholder="Weight"/>
+                </StackLayout>
+                <!-- This is a workout module end -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                
+                 <!-- This is a workout module  -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                <Entry x:Name="exName10" BackgroundColor="#7d8079" Placeholder="Exercise 10" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
+                <StackLayout Orientation="Horizontal" Spacing="25" >
+                    <Entry IsReadOnly="True" Text="sets" />
+                    <Picker x:Name="exSets10" Title="0" HorizontalOptions="FillAndExpand" >
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry IsReadOnly="True" Text="reps"/>
+                    <Picker x:Name="exReps10" Title="0" HorizontalOptions="FillAndExpand">
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                            <x:String>11</x:String>
+                            <x:String>12</x:String>
+                            <x:String>13</x:String>
+                            <x:String>14</x:String>
+                            <x:String>15</x:String>
+                            <x:String>16</x:String>
+                            <x:String>17</x:String>
+                            <x:String>18</x:String>
+                            <x:String>19</x:String>
+                            <x:String>20</x:String>
+                            <x:String>25</x:String>
+                            <x:String>50</x:String>
+                            <x:String>75</x:String>
+                            <x:String>100</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry x:Name="exWeight10" Placeholder="Weight"/>
+                </StackLayout>
+                <!-- This is a workout module end -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ !-->
+                
+                
+                
+                <Button HorizontalOptions="Fill" 
+                        BackgroundColor="Red" 
+                        Text="Create Workout"
+                        Clicked="Button_OnClicked_CreateWorkout"/>
+                
+                <Button VerticalOptions="EndAndExpand" 
+                        HorizontalOptions="Fill" 
+                        BackgroundColor="Gold" 
+                        Text="Home"
+                        Clicked="Button_OnClicked_GoToMainPage"/>
+                
             </StackLayout>
-            <!-- End Example!-->
-                        <Entry BackgroundColor="#7d8079" Placeholder="Exercise 2" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
-            <StackLayout Orientation="Horizontal" Spacing="25" >
-                <Entry IsReadOnly="True" Text="sets" />
-                <Picker Title="0" HorizontalOptions="FillAndExpand" >
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry IsReadOnly="True" Text="reps"/>
-                <Picker Title="0" HorizontalOptions="FillAndExpand">
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry Placeholder="Weight"/>
-
-            </StackLayout>
-                        <Entry BackgroundColor="#7d8079" Placeholder="Exercise 3" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
-            <StackLayout Orientation="Horizontal" Spacing="25" >
-                <Entry IsReadOnly="True" Text="sets" />
-                <Picker Title="0" HorizontalOptions="FillAndExpand" >
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry IsReadOnly="True" Text="reps"/>
-                <Picker Title="0" HorizontalOptions="FillAndExpand">
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry Placeholder="Weight"/>
-
-            </StackLayout>
-                        <Entry BackgroundColor="#7d8079" Placeholder="Exercise 4" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
-            <StackLayout Orientation="Horizontal" Spacing="25" >
-                <Entry IsReadOnly="True" Text="sets" />
-                <Picker Title="0" HorizontalOptions="FillAndExpand" >
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry IsReadOnly="True" Text="reps"/>
-                <Picker Title="0" HorizontalOptions="FillAndExpand">
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry Placeholder="Weight"/>
-
-            </StackLayout>
-                        <Entry BackgroundColor="#7d8079" Placeholder="Exercise 5" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
-            <StackLayout Orientation="Horizontal" Spacing="25" >
-                <Entry IsReadOnly="True" Text="sets" />
-                <Picker Title="0" HorizontalOptions="FillAndExpand" >
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry IsReadOnly="True" Text="reps"/>
-                <Picker Title="0" HorizontalOptions="FillAndExpand">
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry Placeholder="Weight"/>
-
-            </StackLayout>
-                        <Entry BackgroundColor="#7d8079" Placeholder="Exercise 6" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
-            <StackLayout Orientation="Horizontal" Spacing="25" >
-                <Entry IsReadOnly="True" Text="sets" />
-                <Picker Title="0" HorizontalOptions="FillAndExpand" >
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry IsReadOnly="True" Text="reps"/>
-                <Picker Title="0" HorizontalOptions="FillAndExpand">
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry Placeholder="Weight"/>
-
-            </StackLayout>
-                        <Entry BackgroundColor="#7d8079" Placeholder="Exercise 7" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
-            <StackLayout Orientation="Horizontal" Spacing="25" >
-                <Entry IsReadOnly="True" Text="sets" />
-                <Picker Title="0" HorizontalOptions="FillAndExpand" >
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry IsReadOnly="True" Text="reps"/>
-                <Picker Title="0" HorizontalOptions="FillAndExpand">
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry Placeholder="Weight"/>
-
-            </StackLayout>
-                        <Entry BackgroundColor="#7d8079" Placeholder="Exercise 8" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
-            <StackLayout Orientation="Horizontal" Spacing="25" >
-                <Entry IsReadOnly="True" Text="sets" />
-                <Picker Title="0" HorizontalOptions="FillAndExpand" >
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry IsReadOnly="True" Text="reps"/>
-                <Picker Title="0" HorizontalOptions="FillAndExpand">
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry Placeholder="Weight"/>
-
-            </StackLayout>
-                        <Entry BackgroundColor="#7d8079" Placeholder="Exercise 9" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
-            <StackLayout Orientation="Horizontal" Spacing="25" >
-                <Entry IsReadOnly="True" Text="sets" />
-                <Picker Title="0" HorizontalOptions="FillAndExpand" >
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry IsReadOnly="True" Text="reps"/>
-                <Picker Title="0" HorizontalOptions="FillAndExpand">
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry Placeholder="Weight"/>
-
-            </StackLayout>
-                        <Entry BackgroundColor="#7d8079" Placeholder="Exercise 10" PlaceholderColor="Black" HorizontalOptions="FillAndExpand"/>
-            <StackLayout Orientation="Horizontal" Spacing="25" >
-                <Entry IsReadOnly="True" Text="sets" />
-                <Picker Title="0" HorizontalOptions="FillAndExpand" >
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry IsReadOnly="True" Text="reps"/>
-                <Picker Title="0" HorizontalOptions="FillAndExpand">
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                        <x:String>10</x:String>
-                        <x:String>11</x:String>
-                        <x:String>12</x:String>
-                        <x:String>13</x:String>
-                        <x:String>14</x:String>
-                        <x:String>15</x:String>
-                        <x:String>16</x:String>
-                        <x:String>17</x:String>
-                        <x:String>18</x:String>
-                        <x:String>19</x:String>
-                        <x:String>20</x:String>
-                        <x:String>25</x:String>
-                        <x:String>50</x:String>
-                        <x:String>75</x:String>
-                        <x:String>100</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Entry Placeholder="Weight"/>
-
-            </StackLayout>
-            
-            <Button HorizontalOptions="Fill" 
-                    BackgroundColor="Red" 
-                    Text="Create Workout"
-                    Clicked="Button_OnClicked_CreateWorkout"/>
-            
-            <Button VerticalOptions="EndAndExpand" 
-                    HorizontalOptions="Fill" 
-                    BackgroundColor="Gold" 
-                    Text="Home"
-                    Clicked="Button_OnClicked_GoToMainPage"/>
-            
-        </StackLayout>
             
         </ScrollView>
         
         
     </ContentPage.Content>
+    
+    
 </ContentPage>

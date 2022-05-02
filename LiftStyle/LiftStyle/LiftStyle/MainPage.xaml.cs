@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -19,6 +20,9 @@ namespace LiftStyle
         public MainPage()
         {
             InitializeComponent();
+            
+            var image = new Image { Source = ImageSource.FromResource("LiftStyle/LiftStyle.Android/Resources/drawable/liftstyle.png", typeof(MainPage).GetTypeInfo().Assembly) };
+            Image = image;
         }
 
         private async void Button_OnClicked_GoToViewWorkoutPage(object sender, EventArgs e)

@@ -2564,11 +2564,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj",
+      "projectUniqueName": "C:\\Users\\phill\\RiderProjects\\LiftStyle22\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj",
       "projectName": "LiftStyle.Android",
-      "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj",
+      "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle22\\LiftStyle\\LiftStyle\\LiftStyle.Android\\LiftStyle.Android.csproj",
       "packagesPath": "C:\\Users\\phill\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle.Android\\obj\\",
+      "outputPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle22\\LiftStyle\\LiftStyle\\LiftStyle.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2585,8 +2585,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
-              "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj"
+            "C:\\Users\\phill\\RiderProjects\\LiftStyle22\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
+              "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle22\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj"
             }
           }
         }

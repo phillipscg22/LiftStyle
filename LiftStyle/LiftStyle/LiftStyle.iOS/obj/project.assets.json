@@ -1885,11 +1885,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle.iOS\\LiftStyle.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\phill\\RiderProjects\\LiftStyle22\\LiftStyle\\LiftStyle\\LiftStyle.iOS\\LiftStyle.iOS.csproj",
       "projectName": "LiftStyle.iOS",
-      "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle.iOS\\LiftStyle.iOS.csproj",
+      "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle22\\LiftStyle\\LiftStyle\\LiftStyle.iOS\\LiftStyle.iOS.csproj",
       "packagesPath": "C:\\Users\\phill\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle.iOS\\obj\\",
+      "outputPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle22\\LiftStyle\\LiftStyle\\LiftStyle.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1906,8 +1906,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
-              "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle25\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj"
+            "C:\\Users\\phill\\RiderProjects\\LiftStyle22\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj": {
+              "projectPath": "C:\\Users\\phill\\RiderProjects\\LiftStyle22\\LiftStyle\\LiftStyle\\LiftStyle\\LiftStyle.csproj"
             }
           }
         }

@@ -19,49 +19,33 @@
         </StackLayout>
             
         <!-- This is the middle section -->
-        <Label 
-            x:Name="Goals"
-            Text=""
-            HorizontalOptions="Center" 
-            VerticalOptions="CenterAndExpand">
-            
-        </Label>
-        <Image Source="VMI_Logo.png"></Image>
-            
-            
-        <!-- this is the horizontal strip of buttons -->
-        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" BackgroundColor="Red">
-                    
-            <Button Text="View"
+        <Image x:Name="Image"></Image>
+        
+        <Grid VerticalOptions="EndAndExpand"
+              HorizontalOptions="CenterAndExpand">
+            <Button Grid.Row="0"
+                    Grid.Column="0"
+                    Text="View"
                     BackgroundColor="Gold" 
                     Clicked="Button_OnClicked_GoToViewWorkoutPage"
-                    />
-            <Button Text="Create"
+            />
+            <Button Grid.Row="0"
+                    Grid.Column="1"
+                    Text="Create"
                     BackgroundColor="Gold"
                     Clicked="Button_OnClicked_GoToCreateWorkoutPage"
-                    />
-            <Button Text="Help"
+            />
+            <Button Grid.Row="1"
+                    Grid.Column="0"
+                    Text="Help"
                     BackgroundColor="Gold"
                     Clicked="Button_OnClicked_GoToHelpPage"/>
-            
-            <Button Text="FriendZone"
-                    BackgroundColor="Gold"
-                    Clicked="Button_OnClicked_GoToLoginPage"/>
-            
-        </StackLayout>
-        
-        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" BackgroundColor="Red">
-            
-            <Button Text="Workout"
-                    BackgroundColor="Gold"
-                    Clicked="Button_OnClicked_GoToWorkoutPage"/>
-            <Button Text="Settings"
+            <Button Grid.Row="1"
+                    Grid.Column="1"
+                    Text="Settings"
                     BackgroundColor="Gold"
                     Clicked="Button_OnClicked_GoToSettingsPage"/>
-            <Button Text="Goals"
-                    BackgroundColor="Gold"
-                    Clicked="Button_OnClicked_GoToGoalsPage"/>
-        </StackLayout>
+        </Grid>
         
     </StackLayout>
         
