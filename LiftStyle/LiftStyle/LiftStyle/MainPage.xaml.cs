@@ -21,8 +21,6 @@ namespace LiftStyle
         {
             InitializeComponent();
             
-            var image = new Image { Source = ImageSource.FromResource("LiftStyle/LiftStyle.Android/Resources/drawable/liftstyle.png", typeof(MainPage).GetTypeInfo().Assembly) };
-            Image = image;
         }
 
         private async void Button_OnClicked_GoToViewWorkoutPage(object sender, EventArgs e)

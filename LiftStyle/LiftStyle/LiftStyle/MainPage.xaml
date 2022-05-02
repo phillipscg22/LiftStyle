@@ -19,7 +19,7 @@
         </StackLayout>
             
         <!-- This is the middle section -->
-        <Image x:Name="Image"></Image>
+        <Image Source="Images/liftstyle.png"></Image>
         
         <Grid VerticalOptions="EndAndExpand"
               HorizontalOptions="CenterAndExpand">
