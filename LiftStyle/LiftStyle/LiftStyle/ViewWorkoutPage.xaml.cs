@@ -20,6 +20,17 @@ namespace LiftStyle
             // Set a variable to the Documents path.
             string docPath =
                 Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            
+            ex1.Text = "";
+            ex2.Text = "";
+            ex3.Text = "";
+            ex4.Text = "";
+            ex5.Text = "";
+            ex6.Text = "";
+            ex7.Text = "";
+            ex8.Text = "";
+            ex9.Text = "";
+            ex10.Text = "";
 
             string [] exercises = File.ReadAllLines(Path.Combine(docPath, "CurrentWorkout.txt"));
 
@@ -43,6 +54,17 @@ namespace LiftStyle
 
         private void Button_OnClicked_UpdateWorkout(object sender, EventArgs e)
         {
+            
+            ex1.Text = "";
+            ex2.Text = "";
+            ex3.Text = "";
+            ex4.Text = "";
+            ex5.Text = "";
+            ex6.Text = "";
+            ex7.Text = "";
+            ex8.Text = "";
+            ex9.Text = "";
+            ex10.Text = "";
             
             // Set a variable to the Documents path.
             string docPath =
